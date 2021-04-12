@@ -1,0 +1,256 @@
+Daily schedule
+=====================================
+8:55 am joining time
+9:00 - 11:00 session 1
+11:00 break - 15 mins = 15 mins
+11:15 - 1:00 - session 2
+1:00 to 2:00 lunch break*
+2 to 3:30 - session 3
+3:30 to 3:45 - break - 15
+3:45 to 5:30 - session 4
+=====================================
+
+Learn by doing 
+	- standup meeting - 30 mins - video must be on 
+	- Assignments
+	- Quiz 
+	- Coding Quiz
+	- Case Study
+	- presentation - tech topic - JAM session - 3 mins to 5 mins presenation
+	
+ Assessments -  Coding 
+		MCQ 
+
+
+
+Core Java -
+MySQL
+Advanced java - servlet jsp
+Java EE 
+Design Pattern
+UML 
+Spring Framework -
+	Core
+	MVC
+	JPA
+	Boot
+	REST (Webservice)
+Git
+Maven
+JUnit
+Web tech - HTML CSS Bootstrap Javascript
+
+
+
+
+Eclipse IDE
+Netbeans
+Intelli J
+
+
+PPTs
+
+
+What is Java?
+programming language ->
+	java buzzword
+	security 
+	portable
+	platform independent
+	robust 
+	compiled + interpreted - 
+	100%< Object oriented prog lang
+	any type of application
+	good GUI
+
+
+Object oriented programming language
+	- real time objects 
+	- provide modularity and reusability
+
+
+	Java Platform 
+		- Java Compile time env
+			compile source code
+			Welcome.java ----compile-------> Welcome.class (bytecode)	
+
+		
+		- Java Runtime env (JRE)
+			Welcome.class------JVM------>OS (run at os)
+				1. Java Interpreter
+				2. JIT Compiler - Just-in-time Compiler
+
+
+	JDK
+
+	JRE
+	JVM
+	
+	JVM is platform dependent. t/f - true
+	latest version of java - Java 15 16
+
+	
+
+
+	JDK Editions:
+		Java Standard Edition - JSE
+		Java Enterprise Edition - JEE
+		Java Micro Edition - JME
+
+
+
+	 
+
+
+	write a code to sum two numbers and print result as well as numbers in following format:-
+		20 + 10 = 30 //it could be anything
+
+		num1 + num2 = result
+		int num1 = 20;
+		int num2 = 10;
+		int result = num1 + num2;
+
+
+	1. hard code values
+	2. get input from user 
+
+	100.35   234.56
+
+	"Java" "Programming"
+
+	"A" "B"
+	some name to value 
+
+
+	Java Data types :-
+
+		1.Primitive
+			Integral
+				byte-1, short-2, int-4, long-8
+			Floating
+				float 4, double 8
+			boolean
+				boolean - 2value true/false
+			character
+				char - 2 - unicode pattern
+
+		2.Reference 
+			array
+			class
+			interface
+
+
+	Type Conversion :-
+		1. Implicit -Widening
+			lower to higher
+
+		2. Explicit - Narrowing
+			higher to lower
+			Data loss
+	byte b1 = (byte)130; //compilation error -range -128 to 127 :: byte
+	byte b2 = 100;
+
+	int i = b2;
+	
+	-128 -127 -126 -125 ........-1 0 1 2 3 ..........125 126 127
+
+
+	Identifier - variable, methods, class, interface etc.
+		can start with 
+				alphabet
+				$
+				_ (underscore)
+
+	comments 
+		// single line comment
+		/* multi 
+		line 
+		comment		
+		*/
+
+
+	Operators :-
+		number of operands
+		single - Unary
+				+ -
+				++ --
+				!
+				~
+			increment operator ++
+				prefix ++i or postfix i++  => i = i + 1
+				int i = 10;
+				int j = ++i;				
+				int k = i++;
+
+				i 12 j 11
+					k 11
+
+
+				
+
+
+
+		double - Binary
+				arithmetic
+				relational > < >= <= == !=
+				logical && ||
+				assignment  = += -= *= /= %=
+				bitwise & | 
+		three - Ternary
+
+			exp1 ? exp2 : exp3
+
+			int num = 20;
+			int otherNum = ( num % 2 == 0) ? num + 1 : num + 2;
+
+
+
+	Constructs :-
+		selection (decision making)
+			if
+			if-else
+			if else if else
+
+			switch-case
+ 		loops
+			for
+			while
+			do-while
+
+			enhanced for loop
+
+
+	Assignment :-
+		if user enters between 1 to 5 print "Weekday", if 6 or 7 print "Weekend" . for other values print "Invalid day"
+
+
+		difference between break and continue
+
+
+
+
+	Reference type :-
+		
+		String class from API (java.lang package)
+
+		String name = "Ram"; // 1 way of creating string object
+
+		String name = new String("Ram"); //2 way
+
+	marks[2][3]
+	s1> 45 46 49  --> marks[0].length
+	s2> 39 42 48  --> marks[1].length
+
+		marks[i].length
+
+	2D array is array of 1D arrays
+
+
+
+Assignments :-
+	1. find out different versions of java . when they launched
+	2. What is JAR file?
+	3. How float and double values are represented/stored? and their range?
+	4. Solution for follwing:-
+		a. discourage comments - ?
+		b. avoid using System.out.println for debugging - ?
